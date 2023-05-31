@@ -1,0 +1,48 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', 'sanspro';
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  body{
+    background-image: url('iamges/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  img{
+    display: flex;
+  }
+  h1{
+    font-size: 75px;
+    margin: 40px;
+  }
+  .picker{
+    width: 200px;
+    height: 125px ;
+  }
+  ul{
+    list-style: none;
+  }
+  li{
+    margin: 10px;
+    font-size: 45px;
+  }
+  .Naruto-class, .Itachi-class, .Madara-class, .Obito-class{
+    border: 2px solid black;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px 20px;
+  }
+  li:hover{
+    background: rgba(77, 77, 77, 0.46);
+  }
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
